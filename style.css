@@ -1,0 +1,33 @@
+div{
+    background-color: chartreuse;
+    color: rgb(124, 124, 124);
+    width: 50%;
+    height: 50vh;
+    text-align: center;
+    margin: 100px;
+    margin-left: 25%;
+    border-radius: 5px;
+    text-align: center;
+}
+h1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#num {
+    width: 200px;
+    height: 24px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.bt {
+    width: 25%;
+    height: 5vh;
+    border-radius: 5px;
+    color: rgb(113, 114, 116);
+}
+label{
+    font-size: 20px;
+    padding-bottom: 20px;
+}

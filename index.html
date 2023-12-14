@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>CHECK ODD OR EVEN NUMBER</h1>
+        <label for="num">Enter a number check if it's odd or even : </label><br>
+        <input id="num" type="text">
+        <button class="bt" onclick="check()">CHECK</button>
+        <h2 id="result"></h2>
+    </div>
+<script>
+
+
+function check(){
+    var number = document.getElementById("num").value;
+    number=parseFloat(number);
+    var result = (number % 2 === 0) ? 'Even' : 'Odd';
+
+    document.getElementById("result").innerHTML='The number ' + number + ' is ' + result + '.';
+    }
+
+
+
+</script>
+
+</body>
+</html>
